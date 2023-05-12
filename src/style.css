@@ -2,11 +2,42 @@
   --main-title-font: "Ysabeau", sans-serif;
   --main-text-font: "Josefin Slab", serif;
   --background-color: #e4dcd1;
-  --main-title-color: #21201f;
+  --main-title-color: #21201F;
   --main-text-color: #746c6c;
-  --third-color: #74746C;
+  --third-color: #74746c;
 }
 body {
   background-color: var(--background-color);
 }
+.hemepage-top p {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  font-size: 36px;
+  text-align: center;
+  line-height: 20px;
+}
 
+.hemepage-top h1 {
+  font-family: var(--main-title-font);
+  color: var(--main-title-color);
+  font-style: italic;
+  font-size: 80px;
+  text-align: center;
+}
+.hemepage-top h2 {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  font-size: 40px;
+  text-align: center;
+}
+.hemepage-top {
+  padding: 100px 10px;
+
+}
+.hero{
+    padding: 65px 10px;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+}
