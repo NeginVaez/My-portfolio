@@ -1,0 +1,12 @@
+:root {
+  --main-title-font: "Ysabeau", sans-serif;
+  --main-text-font: "Josefin Slab", serif;
+  --background-color: #e4dcd1;
+  --main-title-color: #21201f;
+  --main-text-color: #746c6c;
+  --third-color: #74746C;
+}
+body {
+  background-color: var(--background-color);
+}
+
