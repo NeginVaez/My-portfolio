@@ -2,8 +2,9 @@
   --main-title-font: "Ysabeau", sans-serif;
   --main-text-font: "Josefin Slab", serif;
   --background-color: #e4dcd1;
-  --main-title-color: #21201F;
+  --main-title-color: #21201f;
   --main-text-color: #746c6c;
+  --second-color: #71452f;
   --third-color: #74746c;
 }
 body {
@@ -32,12 +33,50 @@ body {
 }
 .hemepage-top {
   padding: 100px 10px;
-
 }
-.hero{
-    padding: 65px 10px;
+.hero {
+  padding: 65px 10px;
 }
 .hero-img {
   display: flex;
   justify-content: center;
+}
+
+.projects h2 {
+  font-size: 36px;
+  font-family: var(--main-title-font);
+  color: var(--main-title-color);
+}
+.projects p {
+  font-size: 30px;
+  font-family: var(--main-text-font);
+  line-height: 30px;
+   color: var(--main-text-color);
+}
+.btn-branding-outline {
+  color: var(--second-color);
+  border-color: var(--third-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 5px 10px;
+  font-family: var(--main-text-font);
+}
+@media (max-width: 992px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .projects p {
+    font-size: 20px;
+  }
 }
