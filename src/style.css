@@ -43,12 +43,12 @@ body {
 }
 
 .projects h2 {
-  font-size: 36px;
+  font-size: 34px;
   font-family: var(--main-title-font);
   color: var(--main-title-color);
 }
 .projects p {
-  font-size: 30px;
+  font-size: 28px;
   font-family: var(--main-text-font);
   line-height: 30px;
    color: var(--main-text-color);
