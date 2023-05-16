@@ -51,7 +51,7 @@ body {
   font-size: 28px;
   font-family: var(--main-text-font);
   line-height: 30px;
-   color: var(--main-text-color);
+  color: var(--main-text-color);
 }
 .btn-branding-outline {
   color: var(--second-color);
@@ -79,4 +79,31 @@ body {
   .projects p {
     font-size: 20px;
   }
+}
+
+.about-top p {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  
+}
+.about-top h1 {
+  font-family: var(--main-title-font);
+  color: var(--main-title-color);
+  font-style: italic;
+  font-size: 60px;
+  text-align: left;
+}
+.about-top h2 {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  font-size: 40px;
+  text-align: left;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
 }
