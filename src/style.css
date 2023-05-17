@@ -106,20 +106,33 @@ body {
   display: flex;
   justify-content: center;
 }
-.work h1 {
+.work h1 , .contact h1 {
   font-family: var(--main-title-font);
   color: var(--main-title-color);
   font-style: italic;
   font-size: 40px;
   text-align: left;
 }
-.work h2 {
+.work h2 , .contact h2{
   font-family: var(--main-title-font);
   font-size: 24px;
   color: var(--main-title-color);
 }
-.work p {
+.work p , .contact p{
   font-family: var(--main-title-font);
   font-size: 20px;
   color: var(--main-text-color);
+}
+a:link {
+  color: var(--third-color);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--main-text-color);text-decoration: none;
+}
+a:hover {
+  color: var(--main-title-color);text-decoration: none;
+}
+a:active {
+  color: var(--second-color);text-decoration: none;
 }
