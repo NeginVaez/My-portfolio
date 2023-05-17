@@ -87,7 +87,6 @@ body {
   font-size: 20px;
   text-align: left;
   line-height: 30px;
-  
 }
 .about-top h1 {
   font-family: var(--main-title-font);
@@ -103,7 +102,24 @@ body {
   text-align: left;
 }
 
-.about-img {
+.about-img{
   display: flex;
   justify-content: center;
+}
+.work h1 {
+  font-family: var(--main-title-font);
+  color: var(--main-title-color);
+  font-style: italic;
+  font-size: 40px;
+  text-align: left;
+}
+.work h2 {
+  font-family: var(--main-title-font);
+  font-size: 24px;
+  color: var(--main-title-color);
+}
+.work p {
+  font-family: var(--main-title-font);
+  font-size: 20px;
+  color: var(--main-text-color);
 }
