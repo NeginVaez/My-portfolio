@@ -79,6 +79,13 @@ body {
   .projects p {
     font-size: 20px;
   }
+  .hemepage-top{
+    padding: 0px;
+  }
+  .navbar-brand{
+    width: 200px;
+    margin: 0;
+  }
 }
 
 .about-top p {
