@@ -42,7 +42,8 @@ body {
   justify-content: center;
 }
 
-.projects h2 {
+.projects h2,
+.my-projects {
   font-size: 34px;
   font-family: var(--main-title-font);
   color: var(--main-title-color);
@@ -53,6 +54,7 @@ body {
   line-height: 30px;
   color: var(--main-text-color);
 }
+
 .btn-branding-outline {
   color: var(--second-color);
   border-color: var(--third-color);
@@ -149,28 +151,50 @@ footer .icons a:hover {
 .contact-box .button {
   margin-top: 20px;
 }
+body {
+  
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 @media (max-width: 992px) {
   .project-description {
     padding: 0;
     text-align: center;
+    display: block;
   }
+
   .hero {
     text-align: center;
-  }
+    padding: 10px 0px;
+   }
   .hero h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
-  h2 {
-    font-size: 30px;
+  .hero h2,
+  .hero p {
+    font-size: 28px;
+  }
+
+  .projects h2 {
+    font-size: 20px;
   }
   .projects p {
+    font-size: 15px;
+  }
+  .my-projects {
     font-size: 20px;
+  }
+  #projects {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 480px;
   }
   .hemepage-top {
     padding: 0px;
+    
   }
-  .navbar-brand {
-    width: 200px;
+  nav .navbar-brand {
+    width: 150px;
     margin: 0;
   }
   .contact-box {
@@ -190,3 +214,4 @@ footer .icons a:hover {
     font-size: 18px;
   }
 }
+ 
